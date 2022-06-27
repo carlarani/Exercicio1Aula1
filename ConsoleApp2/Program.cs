@@ -9,6 +9,9 @@ namespace ConsoleApp2
         {
             Inventory.Load();
 
+            Inventory.Include(new Guitar());
+            Inventory.Include(new Piano());
+            Inventory.Include(new Violin());
 
             Console.WriteLine(Inventory.Count);
 
