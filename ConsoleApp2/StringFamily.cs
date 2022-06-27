@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class Guitar : StringFamily
+    internal class StringFamily : Instrument
     {
-        public int NumFret { get; set; }
+        public int NumStrings { get; set; }
     }
 }
