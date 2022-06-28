@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class Guitar : StringFamily
+    class Guitar : StringFamily
     {
         public int NumFret { get; set; }
+        public Guitar(int NumFret, int NumStrings, string Maker, decimal Price) : base(NumStrings, Maker, Price)
+        {
+            this.NumFret = NumFret;
+        }
     }
 }

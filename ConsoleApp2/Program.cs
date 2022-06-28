@@ -9,7 +9,7 @@ namespace ConsoleApp2
         {
             Inventory.Load();
 
-            Inventory.Include(new Guitar());
+            Inventory.Include(new Guitar(8,12,"Fender", 12000.50m));
             Inventory.Include(new Piano());
             Inventory.Include(new Violin());
 

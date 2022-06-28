@@ -9,5 +9,6 @@ namespace ConsoleApp2
     internal class KeyboardFamily :Instrument
     {
         public int NumStrings { get; set; }
+
     }
 }
